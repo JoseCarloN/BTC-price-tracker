@@ -8,7 +8,7 @@ parameters = {
     'symbol': 'BTCUSDT',
     'interval': "1d",  # data interval
     'timeZone': -6,  # converts from UTC response to Mexico timezone
-    'limit': 1000  # limit query to get only the most up-to-date data
+    'limit': 1  # limit query to get only the most up-to-date data
 }
 
 response = requests.get(url=end_point, params=parameters)
